@@ -82,4 +82,13 @@
     "vite": "^5.4.19"
   }
 }
-"homepage": "https://qazer657.github.io/Gmail-Silp-Tracker"
+{
+  "homepage": "https://qazer657.github.io/Gmail-Silp-Tracker",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+
